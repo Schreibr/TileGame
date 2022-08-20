@@ -32,12 +32,12 @@ function generate_borders() {
             let medium_tiles = border.find_border(updated, mapping.WATER_MEDIUM_ID, true)
             let to_clear_water = deep_tiles.concat(medium_tiles)
             to_clear_water.forEach(t => t.updated_id = mapping.WATER_CLEAR_ID)
-            border_layer.update_tiles(to_clear_water)
+            layer.update_tiles(to_clear_water)
         
             let water_tiles = layer.scanTiles(mapping.WATER_CLEAR_ID)
             let to_medium_water = border.find_border(water_tiles, mapping.WATER_DEEP_ID, true)
             to_medium_water.forEach(t => t.updated_id = mapping.WATER_MEDIUM_ID)
-            border_layer.update_tiles(to_medium_water)
+            layer.update_tiles(to_medium_water)
         
             updated = border.compute_medium_water_border(water_tiles)
             border_layer.update_tiles(updated)
