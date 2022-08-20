@@ -1,7 +1,7 @@
-import * as mapping from './generator/tile-mapping.mjs'
-import * as map from './generator/map.mjs'
-import * as border from './generator/border.mjs'
-import * as mountain from './generator/mountain.mjs'
+import * as mapping from './tile-mapping.mjs'
+import * as map from './map.mjs'
+import * as border from './border.mjs'
+import * as mountain from './mountain.mjs'
 
 function generate_borders() {
     let groupes = map.get_groupes_by_property('border')
