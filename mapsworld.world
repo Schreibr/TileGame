@@ -1,19 +1,5 @@
 {
     "maps": [
-        {
-            "fileName": "tilemaps/underSeeMap.tmx",
-            "height": 1280,
-            "width": 3328,
-            "x": -768,
-            "y": -512
-        },
-        {
-            "fileName": "tilemaps/OhputainLile.tmx",
-            "height": 0,
-            "width": 0,
-            "x": 128,
-            "y": -112
-        }
     ],
     "onlyShowAdjacentMaps": false,
     "type": "world"
