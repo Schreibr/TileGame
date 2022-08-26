@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="TileGame"
-run/main_scene="res://tilemaps/collisiontest.tscn"
+run/main_scene="res://tilemaps/OhputainLile.tscn"
 config/icon="res://icon.png"
 
 [editor_plugins]
