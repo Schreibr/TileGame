@@ -1,27 +1,28 @@
-[gd_scene load_steps=17 format=2]
+[gd_scene load_steps=18 format=2]
 
 [ext_resource path="res://PlayerSpriteSheet/AnimationSprite.png" type="Texture" id=1]
 [ext_resource path="res://Player/scripts/KinematicBody2D.gd" type="Script" id=2]
+[ext_resource path="res://Player/scripts/Body.gd" type="Script" id=3]
 
 [sub_resource type="AtlasTexture" id=1]
 flags = 4
 atlas = ExtResource( 1 )
-region = Rect2( 0, 160, 32, 32 )
+region = Rect2( 0, 64, 32, 32 )
 
 [sub_resource type="AtlasTexture" id=2]
 flags = 4
 atlas = ExtResource( 1 )
-region = Rect2( 64, 160, 32, 32 )
+region = Rect2( 64, 64, 32, 32 )
 
 [sub_resource type="AtlasTexture" id=3]
 flags = 4
 atlas = ExtResource( 1 )
-region = Rect2( 0, 64, 32, 32 )
+region = Rect2( 0, 160, 32, 32 )
 
 [sub_resource type="AtlasTexture" id=4]
 flags = 4
 atlas = ExtResource( 1 )
-region = Rect2( 64, 64, 32, 32 )
+region = Rect2( 64, 160, 32, 32 )
 
 [sub_resource type="AtlasTexture" id=5]
 flags = 4
@@ -67,12 +68,12 @@ region = Rect2( 64, 0, 32, 32 )
 animations = [ {
 "frames": [ SubResource( 1 ), SubResource( 2 ) ],
 "loop": true,
-"name": "right",
+"name": "left",
 "speed": 5.0
 }, {
 "frames": [ SubResource( 3 ), SubResource( 4 ) ],
 "loop": true,
-"name": "left",
+"name": "right",
 "speed": 5.0
 }, {
 "frames": [ SubResource( 5 ), SubResource( 6 ) ],
@@ -101,14 +102,14 @@ speed = 50
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 0.291992, 0.437984 )
 scale = Vector2( 0.635014, 0.62589 )
+z_index = 10
 frames = SubResource( 13 )
 animation = "left"
 frame = 1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-scale = Vector2( 0.473671, 0.516917 )
+scale = Vector2( 0.31793, 0.335233 )
 shape = SubResource( 14 )
 
-[node name="Camera2D2" type="Camera2D" parent="."]
-current = true
-zoom = Vector2( 0.5, 0.5 )
+[node name="Body" type="Node" parent="."]
+script = ExtResource( 3 )

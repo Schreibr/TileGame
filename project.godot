@@ -8,9 +8,14 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Node",
+"class": "Body",
+"language": "GDScript",
+"path": "res://Player/scripts/Body.gd"
+} ]
 _global_script_class_icons={
-
+"Body": ""
 }
 
 [application]
@@ -18,6 +23,10 @@ _global_script_class_icons={
 config/name="TileGame"
 run/main_scene="res://tilemaps/OhputainLile.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Global="*res://Global.gd"
 
 [editor_plugins]
 

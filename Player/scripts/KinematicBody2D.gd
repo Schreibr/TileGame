@@ -3,6 +3,7 @@ extends KinematicBody2D
 export (int) var speed = 200
 
 onready var _animated_sprite = $AnimatedSprite
+onready var body= $Body
 var velocity = Vector2()
 var axis = Vector2()
 var right = Vector2(1, 0)
@@ -11,22 +12,30 @@ var up = Vector2(0, -1)
 var down = Vector2(0, 1)
 var idle = Vector2(0, 0)
 
+
 func get_input():
 	velocity = Vector2()
 	if Input.is_action_pressed("ui_right"):
+		body.take_damage(1)
 		velocity.x += 1
 	if Input.is_action_pressed("ui_left"):
 		velocity.x -= 1
+		body.take_damage(-1)
 	if Input.is_action_pressed("ui_down"):
 		velocity.y += 1
+		#$Body.take_damage(1)
 	if Input.is_action_pressed("ui_up"):
 		velocity.y -= 1
+		#$Body.heal(1)
+	if Input.is_action_pressed("ui_accept"):
+		body.energy -= 1
 	axis=velocity.normalized()
 	velocity = axis * speed
 	
 
 func _physics_process(delta):
 	get_input()
+	body.bar_handler.update_bar()
 	velocity = move_and_slide(velocity)
 
 var last_anim = 0

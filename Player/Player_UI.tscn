@@ -1,0 +1,112 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Player/scripts/bar_handler.gd" type="Script" id=1]
+
+[sub_resource type="StyleBoxFlat" id=1]
+content_margin_left = 0.0
+content_margin_right = 0.0
+content_margin_top = 0.0
+content_margin_bottom = 0.0
+bg_color = Color( 0.384314, 0.796078, 0.431373, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0.14902, 0.215686, 0.878431, 1 )
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_bottom_right = 20
+corner_detail = 15
+shadow_color = Color( 0.921569, 0.854902, 0.854902, 0.6 )
+shadow_size = 1
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 1, 0, 0, 1 )
+corner_radius_top_left = 20
+corner_radius_bottom_right = 20
+
+[sub_resource type="StyleBoxFlat" id=3]
+content_margin_left = 0.0
+content_margin_right = 0.0
+content_margin_top = 0.0
+content_margin_bottom = 0.0
+bg_color = Color( 0.796078, 0.662745, 0.384314, 1 )
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color( 0.14902, 0.215686, 0.878431, 1 )
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_bottom_right = 20
+corner_detail = 15
+shadow_color = Color( 0.921569, 0.854902, 0.854902, 0.6 )
+shadow_size = 1
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 20
+corner_radius_bottom_right = 20
+
+[node name="GUI" type="MarginContainer"]
+margin_right = 80.0
+margin_bottom = 30.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="bars" type="VBoxContainer" parent="."]
+margin_right = 80.0
+margin_bottom = 30.0
+
+[node name="HP_bar" type="HBoxContainer" parent="bars"]
+margin_right = 80.0
+margin_bottom = 14.0
+
+[node name="background" type="NinePatchRect" parent="bars/HP_bar"]
+margin_right = 80.0
+margin_bottom = 14.0
+rect_min_size = Vector2( 80, 14 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HP" type="ProgressBar" parent="bars/HP_bar/background"]
+margin_right = 80.0
+margin_bottom = 14.0
+custom_styles/fg = SubResource( 1 )
+custom_styles/bg = SubResource( 2 )
+value = 100.0
+percent_visible = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Energy_bar" type="HBoxContainer" parent="bars"]
+margin_top = 18.0
+margin_right = 80.0
+margin_bottom = 30.0
+
+[node name="background" type="NinePatchRect" parent="bars/Energy_bar"]
+margin_right = 80.0
+margin_bottom = 12.0
+rect_min_size = Vector2( 80, 12 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Energy" type="ProgressBar" parent="bars/Energy_bar/background"]
+margin_top = -4.0
+margin_right = 80.0004
+margin_bottom = 10.0
+rect_scale = Vector2( 0.8, 0.8 )
+custom_styles/fg = SubResource( 3 )
+custom_styles/bg = SubResource( 4 )
+value = 100.0
+percent_visible = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
