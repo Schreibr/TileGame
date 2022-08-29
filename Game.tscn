@@ -1,21 +1,23 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Player/Camera2D.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Player/player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Player/Player_UI.tscn" type="PackedScene" id=3]
-[ext_resource path="res://tilemaps/ile-balaine.tscn" type="PackedScene" id=4]
+[ext_resource path="res://tilemaps/underSeeMap.tscn" type="PackedScene" id=4]
+[ext_resource path="res://tilemaps/ile-balaine.tscn" type="PackedScene" id=5]
 
 [node name="Game" type="Node2D"]
 
-[node name="Ken" parent="." instance=ExtResource( 2 )]
-position = Vector2( 4460.41, 5406.5 )
+[node name="Kin" parent="." instance=ExtResource( 2 )]
+position = Vector2( 4864, 4968 )
 
-[node name="Camera2D" parent="Ken" instance=ExtResource( 1 )]
-position = Vector2( 4.41177, 14.4959 )
+[node name="Camera2D" parent="Kin" instance=ExtResource( 1 )]
 
 [node name="map" type="Node2D" parent="."]
 
 [node name="Node2D" parent="map" instance=ExtResource( 4 )]
+
+[node name="Node2D2" parent="map" instance=ExtResource( 5 )]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 

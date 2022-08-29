@@ -7,8 +7,7 @@
   <property name="boundless" type="bool" value="true"/>
   <property name="centerOffset" type="int" value="0"/>
   <property name="height" type="float" value="1"/>
-  <property name="projectRoot" value="C:/Users/Romain/Documents/GitHub/TileGame/"/>
-  <property name="relativePath" value="C:/Users/Romain/Documents/GitHub/TileGame/tilesets/TilesetMap.tres"/>
+  <property name="projectRoot" value="C:/Users/Romain/Documents/GitHub/TileGame"/>
   <property name="width" type="float" value="1.4"/>
  </properties>
  <image source="../tilesetsPNG/TilesetMap.png" width="2560" height="5888"/>

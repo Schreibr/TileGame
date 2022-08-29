@@ -1,66 +1,54 @@
 [gd_scene load_steps=18 format=2]
 
 [ext_resource path="res://PlayerSpriteSheet/AnimationSprite.png" type="Texture" id=1]
-[ext_resource path="res://Player/scripts/KinematicBody2D.gd" type="Script" id=2]
+[ext_resource path="res://Player/scripts/Kin.gd" type="Script" id=2]
 [ext_resource path="res://Player/scripts/Body.gd" type="Script" id=3]
 
 [sub_resource type="AtlasTexture" id=1]
-flags = 4
 atlas = ExtResource( 1 )
 region = Rect2( 0, 64, 32, 32 )
 
 [sub_resource type="AtlasTexture" id=2]
-flags = 4
 atlas = ExtResource( 1 )
 region = Rect2( 64, 64, 32, 32 )
 
 [sub_resource type="AtlasTexture" id=3]
-flags = 4
 atlas = ExtResource( 1 )
 region = Rect2( 0, 160, 32, 32 )
 
 [sub_resource type="AtlasTexture" id=4]
-flags = 4
 atlas = ExtResource( 1 )
 region = Rect2( 64, 160, 32, 32 )
 
 [sub_resource type="AtlasTexture" id=5]
-flags = 4
 atlas = ExtResource( 1 )
 region = Rect2( 0, 32, 32, 32 )
 
 [sub_resource type="AtlasTexture" id=6]
-flags = 4
 atlas = ExtResource( 1 )
 region = Rect2( 64, 32, 32, 32 )
 
 [sub_resource type="AtlasTexture" id=7]
-flags = 4
 atlas = ExtResource( 1 )
 region = Rect2( 32, 0, 32, 32 )
 
 [sub_resource type="AtlasTexture" id=8]
-flags = 4
 atlas = ExtResource( 1 )
 region = Rect2( 32, 32, 32, 32 )
 
 [sub_resource type="AtlasTexture" id=9]
-flags = 4
 atlas = ExtResource( 1 )
 region = Rect2( 32, 64, 32, 32 )
 
 [sub_resource type="AtlasTexture" id=10]
-flags = 4
 atlas = ExtResource( 1 )
 region = Rect2( 32, 160, 32, 32 )
 
 [sub_resource type="AtlasTexture" id=11]
-flags = 4
 atlas = ExtResource( 1 )
 region = Rect2( 0, 0, 32, 32 )
 
 [sub_resource type="AtlasTexture" id=12]
-flags = 4
 atlas = ExtResource( 1 )
 region = Rect2( 64, 0, 32, 32 )
 
@@ -95,13 +83,11 @@ animations = [ {
 [sub_resource type="CapsuleShape2D" id=14]
 height = 14.3842
 
-[node name="KinematicBody2D" type="KinematicBody2D"]
+[node name="Kin" type="KinematicBody2D"]
 script = ExtResource( 2 )
 speed = 50
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( 0.291992, 0.437984 )
-scale = Vector2( 0.635014, 0.62589 )
 z_index = 10
 frames = SubResource( 13 )
 animation = "left"
@@ -109,8 +95,6 @@ frame = 1
 
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="."]
 modulate = Color( 1, 1, 1, 0.4 )
-position = Vector2( 0.291992, 0.437984 )
-scale = Vector2( 0.635014, 0.62589 )
 z_index = 12
 frames = SubResource( 13 )
 animation = "left"
