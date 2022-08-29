@@ -1,0 +1,279 @@
+[
+    {
+        "name": "montagne-neutre",
+        "border": {
+            "top_left": 36,
+            "top": 37,
+            "top_right": 38,
+            "left": 196,
+            "right": 198,
+            "bottom_left": 356,
+            "bottom": 357,
+            "bottom_right": 358
+        },
+        "turn": {
+            "bottom_right": 39,
+            "bottom_left": 40,
+            "top_right": 199,
+            "top_left": 200
+        },
+        "properties": {
+            "type": "mountain"
+        },
+        "below_border": {
+            "bottom_left": 516,
+            "bottom_right": 518
+        },
+        "below_turn": {},
+        "base": 197
+    },
+    {
+        "name": "sable-eau",
+        "border": {
+            "top_left": 23,
+            "top": 24,
+            "top_right": 25,
+            "left": 183,
+            "right": 185,
+            "bottom_left": 343,
+            "bottom": 344,
+            "bottom_right": 345
+        },
+        "turn": {
+            "top_left": 503,
+            "top_right": 504,
+            "bottom_left": 663,
+            "bottom_right": 664
+        },
+        "properties": {},
+        "below_border": {},
+        "below_turn": {},
+        "base": 178,
+        "neighbor_base": 817
+    },
+    {
+        "name": "terre",
+        "border": {
+            "top_left": 20,
+            "top": 21,
+            "top_right": 22,
+            "left": 180,
+            "right": 182,
+            "bottom_left": 340,
+            "bottom": 341,
+            "bottom_right": 342
+        },
+        "turn": {
+            "top_left": 500,
+            "top_right": 501,
+            "bottom_left": 660,
+            "bottom_right": 661
+        },
+        "properties": {},
+        "below_border": {},
+        "below_turn": {},
+        "base": 181
+    },
+    {
+        "name": "montagne-terre",
+        "border": {
+            "top_left": 676,
+            "top": 677,
+            "top_right": 678,
+            "left": 836,
+            "right": 838,
+            "bottom_left": 996,
+            "bottom": 997,
+            "bottom_right": 998
+        },
+        "turn": {
+            "bottom_right": 679,
+            "bottom_left": 680,
+            "top_right": 839,
+            "top_left": 840
+        },
+        "properties": {
+            "type": "mountain"
+        },
+        "below_border": {
+            "bottom_left": 1156,
+            "bottom": 1157,
+            "bottom_right": 1158
+        },
+        "below_turn": {},
+        "base": 837
+    },
+    {
+        "name": "eau-claire-moyen",
+        "border": {},
+        "turn": {
+            "bottom_right": 815,
+            "bottom_left": 816,
+            "top_right": 975,
+            "top_left": 976
+        },
+        "properties": {},
+        "below_border": {},
+        "below_turn": {},
+        "neighbor_base": 817,
+        "base": 820
+    },
+    {
+        "name": "eau-moyen-sombre",
+        "border": {},
+        "turn": {
+            "bottom_right": 818,
+            "bottom_left": 819,
+            "top_right": 978,
+            "top_left": 979
+        },
+        "properties": {},
+        "below_border": {},
+        "below_turn": {},
+        "base": 814,
+        "neighbor_base": 820
+    },
+    {
+        "name": "sable",
+        "border": {
+            "top_left": 17,
+            "top": 18,
+            "top_right": 19,
+            "left": 177,
+            "right": 179,
+            "bottom_left": 337,
+            "bottom": 338,
+            "bottom_right": 339
+        },
+        "turn": {
+            "top_left": 497,
+            "top_right": 498,
+            "bottom_left": 657,
+            "bottom_right": 658
+        },
+        "properties": {},
+        "below_border": {},
+        "below_turn": {},
+        "base": 178
+    },
+    {
+        "name": "mine",
+        "border": {
+            "top_left": 31236,
+            "top": 31237,
+            "top_right": 31238,
+            "left": 31396,
+            "right": 31398,
+            "bottom_left": 31556,
+            "bottom": 31557,
+            "bottom_right": 31558
+        },
+        "turn": {
+            "bottom_right": 31239,
+            "bottom_left": 31240,
+            "top_right": 31399,
+            "top_left": 31400
+        },
+        "properties": {},
+        "below_border": {},
+        "below_turn": {},
+        "base": 31397
+    },
+    {
+        "name": "riviere-terre",
+        "border": {
+            "top_left": 1942,
+            "top": 1943,
+            "top_right": 1944,
+            "left": 2262,
+            "right": 2264,
+            "bottom_left": 2422,
+            "bottom": 2423,
+            "bottom_right": 2424
+        },
+        "turn": {
+            "bottom_right": 1462,
+            "bottom_left": 1463,
+            "top_right": 1622,
+            "top_left": 1623
+        },
+        "properties": {},
+        "below_border": {
+            "top": 2103
+        },
+        "below_turn": {
+            "top_right": 1782,
+            "top_left": 1783
+        },
+        "base": 2263
+    },
+    {
+        "name": "feuilles",
+        "border": {
+            "top_left": 349,
+            "top": 350,
+            "top_right": 351,
+            "left": 509,
+            "right": 511,
+            "bottom_left": 669,
+            "bottom": 670,
+            "bottom_right": 671
+        },
+        "turn": {
+            "top_left": 506,
+            "top_right": 507,
+            "bottom_left": 666,
+            "bottom_right": 667
+        },
+        "properties": {},
+        "below_border": {},
+        "below_turn": {},
+        "base": 510
+    },
+    {
+        "name": "buisson",
+        "border": {
+            "top_left": 826,
+            "top": 827,
+            "top_right": 829,
+            "left": 986,
+            "right": 989,
+            "bottom_left": 1146,
+            "bottom": 1147,
+            "bottom_right": 1149
+        },
+        "turn": {
+            "bottom_right": 1306,
+            "bottom_left": 1307,
+            "top_right": 1466,
+            "top_left": 1467
+        },
+        "properties": {},
+        "below_border": {},
+        "below_turn": {},
+        "base": 987
+    },
+    {
+        "name": "herbe haute",
+        "border": {
+            "top_left": 10913,
+            "top": 10914,
+            "top_right": 10915,
+            "left": 11073,
+            "right": 11075,
+            "bottom_left": 11233,
+            "bottom": 11234,
+            "bottom_right": 11235
+        },
+        "turn": {
+            "bottom_right": 11071,
+            "bottom_left": 11072,
+            "top_right": 11231,
+            "top_left": 11232
+        },
+        "properties": {},
+        "below_border": {},
+        "below_turn": {},
+        "base": 11074
+    }
+]
