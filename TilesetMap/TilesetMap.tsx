@@ -11,21 +11,7 @@
   <property name="relativePath" value="C:/Users/Romain/Documents/GitHub/TileGame/tilesets/TilesetMap.tres"/>
   <property name="width" type="float" value="1.4"/>
  </properties>
- <image source="TilesetMap.png" width="2560" height="5888"/>
- <tile id="0"/>
- <tile id="1"/>
- <tile id="2"/>
- <tile id="3"/>
- <tile id="4"/>
- <tile id="5"/>
- <tile id="6"/>
- <tile id="7"/>
- <tile id="8"/>
- <tile id="9"/>
- <tile id="10"/>
- <tile id="11"/>
- <tile id="12"/>
- <tile id="13"/>
+ <image source="../tilesetsPNG/TilesetMap.png" width="2560" height="5888"/>
  <tile id="0">
   <properties>
    <property name="objectGroup" value=""/>
@@ -80,7 +66,6 @@
  <tile id="13">
   <objectgroup/>
  </tile>
->>>>>>> 5f613c39f8083b7995606caa02777f4e7b21668c
  <tile id="14"/>
  <tile id="15"/>
  <tile id="16"/>
@@ -62752,51 +62737,6 @@
  <tile id="58878"/>
  <tile id="58879"/>
  <wangsets>
-<<<<<<< HEAD
-  <wangset name="montagne-neutre" type="corner" tile="-1">
-   <wangcolor name="montagne" color="#ff0000" tile="-1" probability="1"/>
-   <wangcolor name="x" color="#00ff00" tile="-1" probability="1"/>
-   <wangcolor name="below" color="#0000ff" tile="-1" probability="1"/>
-   <wangtile tileid="36" wangid="0,2,0,1,0,2,0,2"/>
-   <wangtile tileid="37" wangid="0,2,0,1,0,1,0,2"/>
-   <wangtile tileid="38" wangid="0,2,0,2,0,1,0,2"/>
-   <wangtile tileid="39" wangid="0,1,0,2,0,1,0,1"/>
-   <wangtile tileid="40" wangid="0,1,0,1,0,2,0,1"/>
-   <wangtile tileid="196" wangid="0,1,0,1,0,2,0,2"/>
-   <wangtile tileid="197" wangid="0,1,0,1,0,1,0,1"/>
-   <wangtile tileid="198" wangid="0,2,0,2,0,1,0,1"/>
-   <wangtile tileid="199" wangid="0,2,0,1,0,1,0,1"/>
-   <wangtile tileid="200" wangid="0,1,0,1,0,1,0,2"/>
-   <wangtile tileid="356" wangid="0,1,0,2,0,2,0,2"/>
-   <wangtile tileid="357" wangid="0,1,0,2,0,2,0,1"/>
-   <wangtile tileid="358" wangid="0,2,0,2,0,2,0,1"/>
-   <wangtile tileid="516" wangid="0,2,0,3,0,3,0,3"/>
-   <wangtile tileid="518" wangid="0,3,0,3,0,3,0,2"/>
-   <properties>
-    <property name="type" value="mountain"/>
-   </properties>
-  </wangset>
-  <wangset name="sable-eau" type="corner" tile="-1">
-   <wangcolor name="sable" color="#ff0000" tile="-1" probability="1"/>
-   <wangcolor name="eau" color="#00ff00" tile="-1" probability="1"/>
-   <wangtile tileid="23" wangid="0,2,0,1,0,2,0,2"/>
-   <wangtile tileid="24" wangid="0,2,0,1,0,1,0,2"/>
-   <wangtile tileid="25" wangid="0,2,0,2,0,1,0,2"/>
-   <wangtile tileid="178" wangid="0,1,0,1,0,1,0,1"/>
-   <wangtile tileid="183" wangid="0,1,0,1,0,2,0,2"/>
-   <wangtile tileid="185" wangid="0,2,0,2,0,1,0,1"/>
-   <wangtile tileid="343" wangid="0,1,0,2,0,2,0,2"/>
-   <wangtile tileid="344" wangid="0,1,0,2,0,2,0,1"/>
-   <wangtile tileid="345" wangid="0,2,0,2,0,2,0,1"/>
-   <wangtile tileid="503" wangid="0,1,0,1,0,1,0,2"/>
-   <wangtile tileid="504" wangid="0,2,0,1,0,1,0,1"/>
-   <wangtile tileid="663" wangid="0,1,0,1,0,2,0,1"/>
-   <wangtile tileid="664" wangid="0,1,0,2,0,1,0,1"/>
-   <wangtile tileid="817" wangid="0,2,0,2,0,2,0,2"/>
-  </wangset>
-  <wangset name="terre" type="corner" tile="-1">
-   <wangcolor name="terre" color="#ff0000" tile="-1" probability="1"/>
-   <wangcolor name="x" color="#00ff00" tile="-1" probability="1"/>
   <wangset name="dirt to X" type="corner" tile="-1">
    <wangcolor name="dirt" color="#ff0000" tile="-1" probability="1"/>
    <wangcolor name="X" color="#00ff00" tile="-1" probability="1"/>
@@ -62813,55 +62753,6 @@
    <wangtile tileid="501" wangid="0,2,0,1,0,1,0,1"/>
    <wangtile tileid="660" wangid="0,1,0,1,0,2,0,1"/>
    <wangtile tileid="661" wangid="0,1,0,2,0,1,0,1"/>
-<<<<<<< HEAD
-  </wangset>
-  <wangset name="montagne-terre" type="corner" tile="-1">
-   <wangcolor name="montagne" color="#ff0000" tile="-1" probability="1"/>
-   <wangcolor name="x" color="#00ff00" tile="-1" probability="1"/>
-   <wangcolor name="below" color="#0000ff" tile="-1" probability="1"/>
-   <wangtile tileid="676" wangid="0,2,0,1,0,2,0,2"/>
-   <wangtile tileid="677" wangid="0,2,0,1,0,1,0,2"/>
-   <wangtile tileid="678" wangid="0,2,0,2,0,1,0,2"/>
-   <wangtile tileid="679" wangid="0,1,0,2,0,1,0,1"/>
-   <wangtile tileid="680" wangid="0,1,0,1,0,2,0,1"/>
-   <wangtile tileid="836" wangid="0,1,0,1,0,2,0,2"/>
-   <wangtile tileid="837" wangid="0,1,0,1,0,1,0,1"/>
-   <wangtile tileid="838" wangid="0,2,0,2,0,1,0,1"/>
-   <wangtile tileid="839" wangid="0,2,0,1,0,1,0,1"/>
-   <wangtile tileid="840" wangid="0,1,0,1,0,1,0,2"/>
-   <wangtile tileid="996" wangid="0,1,0,2,0,2,0,2"/>
-   <wangtile tileid="997" wangid="0,1,0,2,0,2,0,1"/>
-   <wangtile tileid="998" wangid="0,2,0,2,0,2,0,1"/>
-   <wangtile tileid="1156" wangid="0,2,0,3,0,3,0,3"/>
-   <wangtile tileid="1157" wangid="0,2,0,3,0,3,0,2"/>
-   <wangtile tileid="1158" wangid="0,3,0,3,0,3,0,2"/>
-   <properties>
-    <property name="type" value="mountain"/>
-   </properties>
-  </wangset>
-  <wangset name="eau-claire-moyen" type="corner" tile="-1">
-   <wangcolor name="claire" color="#ff0000" tile="-1" probability="1"/>
-   <wangcolor name="moyen" color="#00ff00" tile="-1" probability="1"/>
-   <wangtile tileid="815" wangid="0,1,0,2,0,1,0,1"/>
-   <wangtile tileid="816" wangid="0,1,0,1,0,2,0,1"/>
-   <wangtile tileid="817" wangid="0,2,0,2,0,2,0,2"/>
-   <wangtile tileid="820" wangid="0,1,0,1,0,1,0,1"/>
-   <wangtile tileid="975" wangid="0,2,0,1,0,1,0,1"/>
-   <wangtile tileid="976" wangid="0,1,0,1,0,1,0,2"/>
-  </wangset>
-  <wangset name="eau-moyen-sombre" type="corner" tile="-1">
-   <wangcolor name="moyen" color="#ff0000" tile="-1" probability="1"/>
-   <wangcolor name="sombre" color="#00ff00" tile="-1" probability="1"/>
-   <wangtile tileid="814" wangid="0,1,0,1,0,1,0,1"/>
-   <wangtile tileid="818" wangid="0,1,0,2,0,1,0,1"/>
-   <wangtile tileid="819" wangid="0,1,0,1,0,2,0,1"/>
-   <wangtile tileid="820" wangid="0,2,0,2,0,2,0,2"/>
-   <wangtile tileid="978" wangid="0,2,0,1,0,1,0,1"/>
-   <wangtile tileid="979" wangid="0,1,0,1,0,1,0,2"/>
-  </wangset>
-  <wangset name="sable" type="corner" tile="-1">
-   <wangcolor name="sable" color="#ff0000" tile="-1" probability="1"/>
-   <wangcolor name="x" color="#00ff00" tile="-1" probability="1"/>
    <wangtile tileid="2263" wangid="0,1,0,1,0,1,0,1"/>
   </wangset>
   <wangset name="sand to X" type="corner" tile="-1">
@@ -62881,95 +62772,6 @@
    <wangtile tileid="657" wangid="0,1,0,1,0,2,0,1"/>
    <wangtile tileid="658" wangid="0,1,0,2,0,1,0,1"/>
   </wangset>
-<<<<<<< HEAD
-  <wangset name="mine" type="corner" tile="-1">
-   <wangcolor name="mine" color="#ff0000" tile="-1" probability="1"/>
-   <wangcolor name="x" color="#00ff00" tile="-1" probability="1"/>
-   <wangtile tileid="31236" wangid="0,2,0,1,0,2,0,2"/>
-   <wangtile tileid="31237" wangid="0,2,0,1,0,1,0,2"/>
-   <wangtile tileid="31238" wangid="0,2,0,2,0,1,0,2"/>
-   <wangtile tileid="31239" wangid="0,1,0,2,0,1,0,1"/>
-   <wangtile tileid="31240" wangid="0,1,0,1,0,2,0,1"/>
-   <wangtile tileid="31396" wangid="0,1,0,1,0,2,0,2"/>
-   <wangtile tileid="31397" wangid="0,1,0,1,0,1,0,1"/>
-   <wangtile tileid="31398" wangid="0,2,0,2,0,1,0,1"/>
-   <wangtile tileid="31399" wangid="0,2,0,1,0,1,0,1"/>
-   <wangtile tileid="31400" wangid="0,1,0,1,0,1,0,2"/>
-   <wangtile tileid="31556" wangid="0,1,0,2,0,2,0,2"/>
-   <wangtile tileid="31557" wangid="0,1,0,2,0,2,0,1"/>
-   <wangtile tileid="31558" wangid="0,2,0,2,0,2,0,1"/>
-  </wangset>
-  <wangset name="riviere-terre" type="corner" tile="-1">
-   <wangcolor name="eau" color="#ff0000" tile="-1" probability="1"/>
-   <wangcolor name="x" color="#00ff00" tile="-1" probability="1"/>
-   <wangcolor name="below" color="#0000ff" tile="-1" probability="1"/>
-   <wangtile tileid="1462" wangid="0,1,0,2,0,1,0,1"/>
-   <wangtile tileid="1463" wangid="0,1,0,1,0,2,0,1"/>
-   <wangtile tileid="1622" wangid="0,2,0,1,0,1,0,1"/>
-   <wangtile tileid="1623" wangid="0,1,0,1,0,1,0,2"/>
-   <wangtile tileid="1782" wangid="0,1,0,3,0,3,0,3"/>
-   <wangtile tileid="1783" wangid="0,3,0,3,0,3,0,1"/>
-   <wangtile tileid="1942" wangid="0,2,0,1,0,2,0,2"/>
-   <wangtile tileid="1943" wangid="0,2,0,1,0,1,0,2"/>
-   <wangtile tileid="1944" wangid="0,2,0,2,0,1,0,2"/>
-   <wangtile tileid="2103" wangid="0,1,0,3,0,3,0,1"/>
-   <wangtile tileid="2262" wangid="0,1,0,1,0,2,0,2"/>
-   <wangtile tileid="2263" wangid="0,1,0,1,0,1,0,1"/>
-   <wangtile tileid="2264" wangid="0,2,0,2,0,1,0,1"/>
-   <wangtile tileid="2422" wangid="0,1,0,2,0,2,0,2"/>
-   <wangtile tileid="2423" wangid="0,1,0,2,0,2,0,1"/>
-   <wangtile tileid="2424" wangid="0,2,0,2,0,2,0,1"/>
-  </wangset>
-  <wangset name="feuilles" type="corner" tile="-1">
-   <wangcolor name="feuille" color="#ff0000" tile="-1" probability="1"/>
-   <wangcolor name="x" color="#00ff00" tile="-1" probability="1"/>
-   <wangtile tileid="349" wangid="0,2,0,1,0,2,0,2"/>
-   <wangtile tileid="350" wangid="0,2,0,1,0,1,0,2"/>
-   <wangtile tileid="351" wangid="0,2,0,2,0,1,0,2"/>
-   <wangtile tileid="506" wangid="0,1,0,1,0,1,0,2"/>
-   <wangtile tileid="507" wangid="0,2,0,1,0,1,0,1"/>
-   <wangtile tileid="509" wangid="0,1,0,1,0,2,0,2"/>
-   <wangtile tileid="510" wangid="0,1,0,1,0,1,0,1"/>
-   <wangtile tileid="511" wangid="0,2,0,2,0,1,0,1"/>
-   <wangtile tileid="666" wangid="0,1,0,1,0,2,0,1"/>
-   <wangtile tileid="667" wangid="0,1,0,2,0,1,0,1"/>
-   <wangtile tileid="669" wangid="0,1,0,2,0,2,0,2"/>
-   <wangtile tileid="670" wangid="0,1,0,2,0,2,0,1"/>
-   <wangtile tileid="671" wangid="0,2,0,2,0,2,0,1"/>
-  </wangset>
-  <wangset name="buisson" type="corner" tile="-1">
-   <wangcolor name="buisson" color="#ff0000" tile="-1" probability="1"/>
-   <wangcolor name="x" color="#00ff00" tile="-1" probability="1"/>
-   <wangtile tileid="826" wangid="0,2,0,1,0,2,0,2"/>
-   <wangtile tileid="827" wangid="0,2,0,1,0,1,0,2"/>
-   <wangtile tileid="829" wangid="0,2,0,2,0,1,0,2"/>
-   <wangtile tileid="986" wangid="0,1,0,1,0,2,0,2"/>
-   <wangtile tileid="987" wangid="0,1,0,1,0,1,0,1"/>
-   <wangtile tileid="989" wangid="0,2,0,2,0,1,0,1"/>
-   <wangtile tileid="1146" wangid="0,1,0,2,0,2,0,2"/>
-   <wangtile tileid="1147" wangid="0,1,0,2,0,2,0,1"/>
-   <wangtile tileid="1149" wangid="0,2,0,2,0,2,0,1"/>
-   <wangtile tileid="1306" wangid="0,1,0,2,0,1,0,1"/>
-   <wangtile tileid="1307" wangid="0,1,0,1,0,2,0,1"/>
-   <wangtile tileid="1466" wangid="0,2,0,1,0,1,0,1"/>
-   <wangtile tileid="1467" wangid="0,1,0,1,0,1,0,2"/>
-  </wangset>
-  <wangset name="herbe haute" type="corner" tile="-1">
-   <wangcolor name="herbe" color="#ff0000" tile="-1" probability="1"/>
-   <wangcolor name="x" color="#00ff00" tile="-1" probability="1"/>
-   <wangtile tileid="10913" wangid="0,2,0,1,0,2,0,2"/>
-   <wangtile tileid="10914" wangid="0,2,0,1,0,1,0,2"/>
-   <wangtile tileid="10915" wangid="0,2,0,2,0,1,0,2"/>
-   <wangtile tileid="11071" wangid="0,1,0,2,0,1,0,1"/>
-   <wangtile tileid="11072" wangid="0,1,0,1,0,2,0,1"/>
-   <wangtile tileid="11073" wangid="0,1,0,1,0,2,0,2"/>
-   <wangtile tileid="11074" wangid="0,1,0,1,0,1,0,1"/>
-   <wangtile tileid="11075" wangid="0,2,0,2,0,1,0,1"/>
-   <wangtile tileid="11231" wangid="0,2,0,1,0,1,0,1"/>
-   <wangtile tileid="11232" wangid="0,1,0,1,0,1,0,2"/>
-   <wangtile tileid="11233" wangid="0,1,0,2,0,2,0,2"/>
-   <wangtile tileid="11234" wangid="0,1,0,2,0,2,0,1"/>
-   <wangtile tileid="11235" wangid="0,2,0,2,0,2,0,1"/>
   <wangset name="sandstone to X" type="corner" tile="-1">
    <wangcolor name="sandstone" color="#ff0000" tile="-1" probability="1"/>
    <wangcolor name="X" color="#00ff00" tile="-1" probability="1"/>
