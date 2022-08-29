@@ -3,6 +3,7 @@ extends KinematicBody2D
 export (int) var speed = 200
 
 onready var _animated_sprite = $AnimatedSprite
+onready var _animated_sprite_transparent = $AnimatedSprite2
 onready var body= $Body
 var velocity = Vector2()
 var axis = Vector2()
@@ -42,18 +43,25 @@ var last_anim = 0
 func _process(_delta):
 	if axis==right:
 		_animated_sprite.play("right")
+		_animated_sprite_transparent.play("right")
 		last_anim = 3
 	if axis == left:
 		_animated_sprite.play("left")
+		_animated_sprite_transparent.play("left")
 		last_anim = 2
 		
 	if axis == down:
 		_animated_sprite.play("down")
+		_animated_sprite_transparent.play("down")
 		last_anim = 0
 	if axis == up:
 		_animated_sprite.play("up")
+		_animated_sprite_transparent.play("up")
 		last_anim = 1
 	if axis == idle:
 		_animated_sprite.stop()
+		_animated_sprite_transparent.stop()
 		_animated_sprite.play("idle")
+		_animated_sprite_transparent.play("idle")
 		_animated_sprite.frame=last_anim
+		_animated_sprite_transparent.frame=last_anim

@@ -107,6 +107,15 @@ frames = SubResource( 13 )
 animation = "left"
 frame = 1
 
+[node name="AnimatedSprite2" type="AnimatedSprite" parent="."]
+modulate = Color( 1, 1, 1, 0.4 )
+position = Vector2( 0.291992, 0.437984 )
+scale = Vector2( 0.635014, 0.62589 )
+z_index = 12
+frames = SubResource( 13 )
+animation = "left"
+frame = 1
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 scale = Vector2( 0.31793, 0.335233 )
 shape = SubResource( 14 )
