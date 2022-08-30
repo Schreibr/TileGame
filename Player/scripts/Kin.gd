@@ -29,7 +29,7 @@ func get_input():
 		velocity.y -= 1
 		#$Body.heal(1)
 	if Input.is_action_pressed("ui_accept"):
-		body.energy -= 1
+		body.use_energy(1)
 	axis=velocity.normalized()
 	velocity = axis * speed
 	

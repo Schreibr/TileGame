@@ -62736,24 +62736,6 @@
  <tile id="58878"/>
  <tile id="58879"/>
  <wangsets>
-  <wangset name="dirt to X" type="corner" tile="-1">
-   <wangcolor name="dirt" color="#ff0000" tile="-1" probability="1"/>
-   <wangcolor name="X" color="#00ff00" tile="-1" probability="1"/>
-   <wangtile tileid="20" wangid="0,2,0,1,0,2,0,2"/>
-   <wangtile tileid="21" wangid="0,2,0,1,0,1,0,2"/>
-   <wangtile tileid="22" wangid="0,2,0,2,0,1,0,2"/>
-   <wangtile tileid="180" wangid="0,1,0,1,0,2,0,2"/>
-   <wangtile tileid="181" wangid="0,1,0,1,0,1,0,1"/>
-   <wangtile tileid="182" wangid="0,2,0,2,0,1,0,1"/>
-   <wangtile tileid="340" wangid="0,1,0,2,0,2,0,2"/>
-   <wangtile tileid="341" wangid="0,1,0,2,0,2,0,1"/>
-   <wangtile tileid="342" wangid="0,2,0,2,0,2,0,1"/>
-   <wangtile tileid="500" wangid="0,1,0,1,0,1,0,2"/>
-   <wangtile tileid="501" wangid="0,2,0,1,0,1,0,1"/>
-   <wangtile tileid="660" wangid="0,1,0,1,0,2,0,1"/>
-   <wangtile tileid="661" wangid="0,1,0,2,0,1,0,1"/>
-   <wangtile tileid="2263" wangid="0,1,0,1,0,1,0,1"/>
-  </wangset>
   <wangset name="sand to X" type="corner" tile="-1">
    <wangcolor name="sand" color="#ff0000" tile="-1" probability="1"/>
    <wangcolor name="X" color="#00ff00" tile="-1" probability="1"/>

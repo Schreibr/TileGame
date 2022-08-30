@@ -14,8 +14,8 @@ onready var energy = get_node("bars/Energy_bar/background/Energy")
 func update_bar():
 	hp.value = body.hp
 	hp.max_value = body.max_hp
-	energy.value = body.hp
-	energy.max_value = body.max_hp
+	energy.value = body.energy
+	energy.max_value = body.max_energy
 	
 
 
